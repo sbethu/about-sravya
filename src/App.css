@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,84 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+/* App.css */
+
+:root {
+  --color-primary: #4A90E2;
+  --color-secondary: #50E3C2;
+  --color-dark-text: #2C3E50;
+  --color-medium-text: #7F8C8D;
+  --color-background: #F5F7FA;
+  --color-white: #FFFFFF;
+
+  --font-header: 'Montserrat', sans-serif;
+  --font-body: 'Open Sans', sans-serif;
+
+  --spacing-xs: 8px;
+  --spacing-sm: 16px;
+  --spacing-md: 24px;
+  --spacing-lg: 32px;
+  --spacing-xl: 40px;
 }
+
+
+/* App.css (add these at bottom) */
+
+
+ body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+section {
+  padding: 60px 0;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button, .btn-primary {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border: none;
+  border-radius: 6px;
+  padding: var(--spacing-sm) var(--spacing-md);
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover, .btn-primary:hover {
+  background-color: #3b7ac6; /* Slightly darker */
+}
+
+section {
+  margin-bottom: var(--spacing-xl);
+  padding: 0 var(--spacing-lg);
+}
+
+.card {
+  background-color: var(--color-white);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: var(--spacing-md);
+  border-radius: 8px;
+  margin-bottom: var(--spacing-lg);
+}
+
